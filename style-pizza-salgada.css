@@ -1,0 +1,415 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+body {
+    background:#1C1C1C;  
+    /* font-family: 'Playfair Display', serif; */
+}
+
+.cabecalho {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: #800000;
+    height: 96px;
+}
+
+.logo {
+    padding: 10px 0;
+    width: 112px;
+    height: 96px; 
+}
+
+.nome__logo {
+    font-size: 48px;
+    font-family: "Pirata One";
+    text-align: center;
+    color: #FFF4E0;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    line-height: 40px;
+    padding-left: 160px;  
+}
+
+.menu { 
+    font-size: 24px;
+
+}
+
+.menu__lista {
+    display: flex;
+    margin: 0;
+}
+
+.menu__item {
+    list-style: none; 
+}
+
+.menu__item:last-child .menu__link {
+    margin-right: 0;
+}
+
+.menu__link {
+    color: #FFF4E0;
+    margin-right:20px;
+    text-decoration: none;
+    text-transform: lowercase;  
+}
+
+.menu__link.ativo  .menu__link {
+    color: #F5841A;
+    font-weight: bold;
+}
+
+.menu__link:hover {
+    color: #F5841A;
+    text-decoration: underline;
+}
+
+.dropdown-menu {
+    background-color: #800000;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.dropdown-item {
+    background-color: #800000;
+    color: #FFF4E0;
+    margin-right:20px;
+    text-decoration: none;
+    text-transform: lowercase;
+
+}
+
+.dropdown-item:hover {
+    text-decoration: underline;
+    color: #F5841A;
+}
+
+.banner {
+    overflow: hidden;
+    position: relative;
+    height: 524px;
+}
+
+.banner__menu-imagem {
+        
+    background-position: center;
+    background-size: cover;   
+}
+
+.banner__menu-imagem img {
+    width:100%;
+       
+}
+
+.banner__menu-titulo {
+    color: #FFF;
+    text-align: center;
+    font-family: "Pirata One";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+.sobre {
+    text-align: center;
+    padding: 40px;
+    color: #FFF;
+}
+
+.sobre__menu-titulo {
+    color: #FFF;
+    text-align: center;
+    font-family: "Della Respira";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.tipo__pizza div {
+    display: flex;
+    align-items: center;
+}
+
+.imagem__pirata {
+    padding-left: 32px;
+}
+
+.logo__menu-pizza {
+    margin-left: 10px; 
+}
+
+.imagem__barra {
+  margin-left: 8px;
+}
+
+.imagem__bandeira  {
+    position: relative;
+    display: inline-block;
+}
+
+.definicao__pizza {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-family: "Pirata One";
+    font-size: 30px;
+    font-weight: 400;
+    z-index: 1; 
+}
+
+.pizzas__superiores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    margin: 0 32px 0 32px;
+}
+
+.pizzas__inferiores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    margin: 0 32px 0 32px;
+}
+
+.tipo__pizzas {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+.pizza__um,
+.pizza__dois,
+.pizza__tres,
+.pizza__quatro,
+.pizza__cinco,
+.pizza__seis,
+.pizza__sete,
+.pizza__oito {
+    flex: 0 0 calc(25% - 20px); 
+    margin-bottom: 20px; 
+    box-sizing: border-box;
+    padding-right: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pizzas {
+    width: 296px;
+    height: 242px;
+    margin-top: 48px;
+    padding-left: 32px;
+}
+
+.pizza__nome {
+    color: #945E06;
+    font-family: "Pirata One";
+    font-size: 32px;
+    font-weight: 400;
+    
+}
+
+.pizza__descricao {
+    color: #FFF;
+    font-family: "Della Respira";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    height: 92px;
+
+
+}
+
+.pizza__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.pizza__preco {
+    color: #FFF;
+    font-family: "Della Respira";
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 16px;
+
+}
+
+.pizza__botao {
+    display: inline-flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-family: "Della Respira";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: transparent;
+    cursor: pointer;
+   
+
+}
+
+.pizza__botao:hover {
+    background-color: #FFC851; 
+    color: #333; 
+   
+}
+
+
+footer {
+    display: flex;
+   
+}
+
+#first-section {
+    display: flex;
+    width:33.3%;
+}
+
+.footer__imagem {
+    height: 32px;
+    margin: 32px;
+    margin-right: 10px; 
+
+}
+
+.footer#texto__um {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#second-section {
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+}
+
+.footer__texto {
+    color: #FFF;
+    font-family: "Della Respira";
+    font-size: 18px;
+    font-weight: 500; 
+    text-align: left;
+    margin-top: 32px;
+    
+}
+
+.footer__texto-destaque{
+    color: #FFC851; 
+    
+}
+
+.footer__descricao {
+    color: #5B5E60;
+    font-family: "Della Respira";
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#gray-contact .footer__descricao {
+    margin-right: 0;
+    
+}
+
+.imagem__descricao {
+   align-items: center;
+   
+}
+
+.imagem__descricao#traco {
+    padding-bottom: 8px;
+}
+
+#white-contact {
+    display: flex;
+    align-items: center;
+}
+
+#white-contact .footer__descricao {
+    margin-right: 16px;
+}
+
+#telefone__contato {
+    text-align: center;
+}
+
+.contato#white-contact .contato__informacao {
+    color: #FFF;
+    font-family: "Della Respira";
+    font-size: 20px;
+    font-weight: 500;
+ 
+}
+
+.contato__informacao {
+    color: #FFF;
+    font-family: "Della Respira";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer#third-section { 
+    display: flex;
+    width: 33.3%;
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.booter__imagem {
+    position: absolute;
+}
+
+.footer__seta {
+    bottom: 0;
+    right: 32px;
+    background: #FDC95A;
+    padding: 8px;
+    border-radius:0;
+
+}
+

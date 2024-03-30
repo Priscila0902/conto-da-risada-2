@@ -1,8 +1,11 @@
 
 * {
-    margin: 0;
-    padding: 0;
-}
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
 
 body {
     background:#1C1C1C;  
@@ -16,20 +19,20 @@ justify-content: space-between;
 padding-left: 32px;
 padding-right: 32px;
 background-color: #800000;
+height: 96px;
 
 }
 
 .logo {
     padding: 10px 0;
-    width: 110px;
-    height: 72px; 
+    width: 112px;
+    height: 96px; 
 }
 
 .nome__logo {
     font-size: 48px;
     font-family: "Pirata One";
     text-align: center;
-    margin-top: -10px;
     color: #FFF4E0;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
     line-height: 40px;
@@ -37,14 +40,14 @@ background-color: #800000;
     
 }
 
-
 .menu { 
     font-size: 24px;
+    
 }
 
 .menu__lista {
     display: flex;
-    
+    margin: 0;
 }
 
 .menu__item {
@@ -71,13 +74,33 @@ background-color: #800000;
 
 .menu__link:hover {
     text-decoration: underline;
+    color: #F5841A;
 }
 
+.dropdown-menu {
+    background-color: #800000;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.dropdown-item {
+    background-color: #800000;
+    color: #FFF4E0;
+    margin-right:20px;
+    text-decoration: none;
+    text-transform: lowercase;
+
+}
+
+.dropdown-item:hover {
+    text-decoration: underline;
+    color: #F5841A;
+}
 
 .banner {
     overflow: hidden;
     position: relative;
-    height: 524px
+    height: 524px;
 }
 
 .banner__imagem {
@@ -99,7 +122,6 @@ background-color: #800000;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
     position: absolute; 
     top: 50%;
     left: 50%;
@@ -455,7 +477,7 @@ background-color: #800000;
 }
 
 .ver__sabores:hover {
-    background-color: #FFC851;
+    background-color:#FFC851 ;
     color: #FFF;
 }
 
