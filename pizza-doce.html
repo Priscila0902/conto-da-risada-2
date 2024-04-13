@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzaria Conto da Risada - Pizzas Salgadas</title>
+    <title>Pizzaria Conto da Risada - Pizzas Doces</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,8 +14,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Pirata+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style-pizza-salgada.css">
+    <link rel="stylesheet" href="style-pizza-doce.css">
 </head>
+
 <body>
     <header class="cabecalho" id="top">
         <img class="logo" src="img/logo.png" alt="pirata">
@@ -47,67 +48,64 @@
     <section class="sobre">
         <h2 class="sobre__menu-titulo">Descubra nossos sabores</h2>
     </section>
-    
+
     <section class="tipo__pizza">
-       <div>
-            <div>
-                <img class="imagem__pirata" src="img/pirate-captain.svg" alt="rosto de um pirata">
-            </div>
-            <div class="logo__menu-pizza">
-                <img class="imagem__barra" src="img/barra menu.svg" alt=" um travessao vermelho"> 
-                <div class="imagem__bandeira">
-                    <span class="definicao__pizza">Pizzas Salgadas</span>
-                    <img src="img/bandeira menu.png" alt="bandeira vermelha com a inscrição pizza salgada dentro">
-                </div>
-            </div>
-        </div> 
-    </section>
+        <div>
+             <div>
+                 <img class="imagem__pirata" src="img/pirate-captain.svg" alt="rosto de um pirata">
+             </div>
+             <div class="logo__menu-pizza">
+                 <img class="imagem__barra" src="img/barra menu.svg" alt=" um travessao vermelho"> 
+                 <div class="imagem__bandeira">
+                     <span class="definicao__pizza">Pizzas Doces</span>
+                     <img src="img/bandeira menu.png" alt="bandeira vermelha com a inscrição pizza salgada dentro">
+                 </div>
+             </div>
+         </div>
+     </section>
+ 
+     <section class="pizzas__superiores">
+         <section class="tipo__pizzas">
+             <div class="pizza__um">
+                 <img class="pizzas" src="pizza doce/Pizza de chocolate com morango.png" alt="Pizza">
+                 <h4 class="pizza__nome">Pizza de chocolate com morango</h4>
+                 <p class="pizza__descricao">Massa de fermentação natural, com chocolate ao leite, morangos e chocolate branco.</p>    
+                 <div class="pizza__info">
+                     <p class="pizza__preco">R$ 49,85</p>
+                     <button class="pizza__botao">Comprar</button>
+                 </div>
+             </div>
+             <div class="pizza__dois">
+                 <img class="pizzas" src="pizza doce/Pizza de MMs.png" alt="Pizza">
+                 <h4 class="pizza__nome">Pizza de M&M's</h4>
+                 <p class="pizza__descricao">Deliciosa massa de fermentação natural com chocolate ao leite e M&M's.</p>
+                 <div class="pizza__info">
+                     <p class="pizza__preco">R$ 36,95</p>
+                     <button class="pizza__botao">Comprar</button>
+                 </div>
+             </div>
+             <div class="pizza__tres">
+                 <img class="pizzas" src="pizza doce/Pizza de banana com doce de leite.png" alt="Pizza">
+                 <h4 class="pizza__nome">Pizza de banana e doce de leite</h4>
+                 <p class="pizza__descricao">Massa de fermentação prolongada com banana e doce de leite.</p>
+                 <div class="pizza__info">
+                     <p class="pizza__preco">R$ 44,45</p>
+                     <button class="pizza__botao">Comprar</button>
+                 </div>
+             </div>
+             <div class="pizza__quatro">
+                 <img class="pizzas" src="pizza doce/Pizza de banana.png" alt="Pizza">
+                 <h4 class="pizza__nome">Pizza de banana</h4>
+                 <p class="pizza__descricao">Massa de fermentação prolongada com banana e canela.</p>
+                 <div class="pizza__info">
+                     <p class="pizza__preco">R$ 47,00</p>
+                     <button class="pizza__botao">Comprar</button>
+                 </div>
+             </div>
+         </section>
+     </section>
 
-
-    
-    <section class="pizzas__superiores">
-        <section class="tipo__pizzas">
-            <div class="pizza__um">
-                <img class="pizzas" src="pizza salgada/Pirata Ching Shih.png" alt="Pizza">
-                <h4 class="pizza__nome">Pirata Ching Shih</h4>
-                <p class="pizza__descricao">Molho clássico, o autêntico pepperoni da velha guarda, linguiça italiana totalmente natural, lascas de presunto assado lentamente, bacon defumado, carne de porco temperada.</p>    
-                <div class="pizza__info">
-                    <p class="pizza__preco">R$ 79,85</p>
-                    <button class="pizza__botao">Comprar</button>
-                </div>
-            </div>
-            <div class="pizza__dois">
-                <img class="pizzas" src="pizza salgada/Pirata Cara de Mau.png" alt="Pizza">
-                <h4 class="pizza__nome">Pirata Cara de Mau</h4>
-                <p class="pizza__descricao">Bacon defumado em madeira dura, carne de porco temperada, muçarela, parmesão, pimenta do reino, ovos e rúcula.
-                </p>
-                <div class="pizza__info">
-                    <p class="pizza__preco">R$ 68,95</p>
-                    <button class="pizza__botao">Comprar</button>
-                </div>
-            </div>
-            <div class="pizza__tres">
-                <img class="pizzas" src="pizza salgada/Pirata Barba Ruiva.png" alt="Pizza">
-                <h4 class="pizza__nome">Pirata Barba Ruiva</h4>
-                <p class="pizza__descricao">O verdadeiro molho dos sete mares, emmental, requeijão de corte, folhas de manjericão.</p>
-                <div class="pizza__info">
-                    <p class="pizza__preco">R$ 69,00</p>
-                    <button class="pizza__botao">Comprar</button>
-                </div>
-            </div>
-            <div class="pizza__quatro">
-                <img class="pizzas" src="pizza salgada/Pirata Anne Bonny.png" alt="Pizza">
-                <h4 class="pizza__nome">Pirata Anne Bonny</h4>
-                <p class="pizza__descricao">Lascas de tomate fresco vermelho, cebola roxa, cogumelos, alcaparras, manjericão, queijo azul e molho branco.</p>
-                <div class="pizza__info">
-                    <p class="pizza__preco">R$ 69,00</p>
-                    <button class="pizza__botao">Comprar</button>
-                </div>
-            </div>
-        </section>
-    </section>
-
-    <section class="faixa__pirata">
+     <section class="faixa__pirata">
         <div class="piratas">
             <img class="piratas__linha" src="img/pirata faixa.png" alt="vários piratas em uma linha reta"> 
         </div>
@@ -115,53 +113,53 @@
             <img class="piratas__linha2" src="img/pirata faixa.png" alt="">
         </div>
     </section>
-    
-    <section class="pizzas__inferiores">
-        <section class="tipo__pizzas">
-            <div class="pizza__cinco">
-                <img class="pizzas" src="pizza salgada/Pirata Monkey D. Luffy.png" alt="Pizza">
-                <h4 class="pizza__nome">Pirata Monkey D. Luffy</h4>
-                <p class="pizza__descricao">O verdadeiro molho dos sete mares, queijo reblochon, cebola branca e roxa, salsinha e suculentas almôndegas.</p>
-                <div class="pizza__info">
-                    <p class="pizza__preco">R$ 79,85</p>
-                    <button class="pizza__botao">Comprar</button>
-                </div>
-            </div>
-            <div class="pizza__seis">
-                <img class="pizzas" src="pizza salgada/Capitão Jack Sparrow.png" alt="Pizza">
-                <h4 class="pizza__nome">Capitão Jack Sparrow</h4>
-                <p class="pizza__descricao">Molho, mussarela, reblochon, gorgonzola, batata, presunto, bacon, cebola, orégano</p>
-                <div class="pizza__info">
-                    <p class="pizza__preco">R$ 70,30</p>
-                    <button class="pizza__botao">Comprar</button>
-                </div>
-            </div>
-            <div class="pizza__sete">
-                <img class="pizzas" src="pizza salgada/Pirata Roger Mary.png" alt="Pizza">
-                <h4 class="pizza__nome">Pirata Roger Mary</h4>
-                <p class="pizza__descricao">Molho de tomate dos sete mares, mussarela,  reblochon, cebola, manjericão</p>
-                <div class="pizza__info">
-                    <p class="pizza__preco">R$ 63,34</p>
-                    <button class="pizza__botao">Comprar</button>
-                </div>
-            </div>
-            <div class="pizza__oito">
-                <img class="pizzas" src="pizza salgada/Pirata Barbe Blanche.png" alt="Pizza">
-                <h4 class="pizza__nome">Pirata Barbe Blanche</h4>
-                <p class="pizza__descricao">Molho de tomate, mussarela,  bacon , cebola, orégano.</p>
-                <div class="pizza__info">
-                    <p class="pizza__preco">R$ 63,34</p>
-                    <button class="pizza__botao">Comprar</button>
-                </div>
-            </div>
-        </section>
-    </section>
+     
+     <section class="pizzas__inferiores">
+         <section class="tipo__pizzas">
+             <div class="pizza__cinco">
+                 <img class="pizzas" src="pizza doce/pizza chocolate branco com morango.png" alt="Pizza">
+                 <h4 class="pizza__nome">Pizza de chocolate branco e morangos</h4>
+                 <p class="pizza__descricao">Massa macia de fermentação prolongada, lascas de chocolate branco, morangos e coco.</p>
+                 <div class="pizza__info">
+                     <p class="pizza__preco">R$ 46,85</p>
+                     <button class="pizza__botao">Comprar</button>
+                 </div>
+             </div>
+             <div class="pizza__seis">
+                 <img class="pizzas" src="pizza doce/Pizza Cheesecake.png" alt="Pizza">
+                 <h4 class="pizza__nome">Pizza de Cheesecake</h4>
+                 <p class="pizza__descricao">Massa crocante com cream cheese, amora, amendoim.</p>
+                 <div class="pizza__info">
+                     <p class="pizza__preco">R$ 57,30</p>
+                     <button class="pizza__botao">Comprar</button>
+                 </div>
+             </div>
+             <div class="pizza__sete">
+                 <img class="pizzas" src="pizza doce/Pizza de chocolate.png" alt="Pizza">
+                 <h4 class="pizza__nome">Pizza de chocolate</h4>
+                 <p class="pizza__descricao">Deliciosa pizza com chocolate ao leite e chocolate meio amargo belga.</p>
+                 <div class="pizza__info">
+                     <p class="pizza__preco">R$ 46,34</p>
+                     <button class="pizza__botao">Comprar</button>
+                 </div>
+             </div>
+             <div class="pizza__oito">
+                 <img class="pizzas" src="pizza doce/Pizza Charge.png" alt="Pizza">
+                 <h4 class="pizza__nome">Pizza Charge</h4>
+                 <p class="pizza__descricao">Deliciosa massa em fermentação natural com chocolate ao leite, chocolate Charge, amendoim e doce de leite.</p>
+                 <div class="pizza__info">
+                     <p class="pizza__preco">R$ 59,34</p>
+                     <button class="pizza__botao">Comprar</button>
+                 </div>
+             </div>
+         </section>
+     </section>
 
-    <svg width="1920" height="2" viewBox="0 0 1920 2" fill="none"  xmlns="http://www.w3.org/2000/svg">
+     <svg width="1920" height="2" viewBox="0 0 1920 2" fill="none"  xmlns="http://www.w3.org/2000/svg">
         <path d="M0 1H1920" stroke="#1D2326" stroke-width="2"/>
-    </svg>
+      </svg>
 
-    <footer>
+      <footer>
         <div class="footer" id="first-section">
             <div class="footer" id="bussola"> 
                 <img class="footer__imagem" src="img/bussola.svg" alt="bússola">
@@ -202,5 +200,5 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+
+ <body>

@@ -9,7 +9,7 @@
 
 body {
     background:#1C1C1C;  
-    /* font-family: 'Playfair Display', serif; */
+
 }
 
 .cabecalho {
@@ -96,6 +96,7 @@ height: 96px;
     text-decoration: underline;
     color: #F5841A;
 }
+
 
 .banner {
     overflow: hidden;
@@ -224,9 +225,7 @@ height: 96px;
     color: #FFF;
     font-family: "Della Respira";
     font-size: 20px;
-    /* font-style: normal; */
     font-weight: 500;
-    /* line-height: normal; */
     line-height: 1.5;
     text-align: center;
 }
@@ -236,7 +235,6 @@ height: 96px;
     text-align: center;
     font-family: "Della Respira";
     font-size: 30px;
-    /* font-style: normal; */
     font-weight: 500;
     line-height: normal;
     margin-bottom: 30px;
@@ -263,7 +261,7 @@ height: 96px;
 }
 
 .oferta__botao:hover {
-    background-color: #FFF; 
+    background-color: #FFC851; 
     color: #333; 
 }
 
@@ -309,10 +307,29 @@ height: 96px;
 
 }
 
+.polvo {
+    margin-left:32px;
+    position: absolute;
+    top:2313px;
+    left: 0;
 
+}
 
+.polvo__esquerdo {
 
+}
 
+.polvo2 {
+    position: absolute;
+    right: 0;
+    top: 2313px;
+    margin-right:32px;
+
+}
+
+.polvo__direito {
+
+}
 
 
 .destaque {
@@ -362,14 +379,14 @@ height: 96px;
     padding: 32px;
     margin-bottom: 16px;
     border-radius: 16px;
-    width: 40%; 
+    width: 42.5%; 
     border: 2px solid #945E06;
  
 }
 
 .destaque__um, 
 .destaque__tres {
-    margin-left: 56px;
+    margin-left: 64px;
 }
 
 .destaque__um,
@@ -482,6 +499,7 @@ height: 96px;
 }
 
 
+
 footer {
     display: flex;
    
@@ -546,6 +564,7 @@ footer {
 
 #gray-contact .footer__descricao {
     margin-right: 0;
+    margin-bottom: 4px;
     
 }
 
@@ -579,6 +598,10 @@ footer {
  
 }
 
+.contato__imagem {
+    margin-bottom: 16px;
+}
+
 .contato__informacao {
     color: #FFF;
     font-family: "Della Respira";
@@ -586,15 +609,15 @@ footer {
     font-weight: 500;
 }
 
+
 .footer#third-section { 
     display: flex;
     width: 33.3%;
     align-items: end;
     justify-content: end;
-    flex-direction: column;
 }
 
-.booter__imagem {
+.button__imagem {
     position: absolute;
 }
 
@@ -607,5 +630,24 @@ footer {
 
 }
 
+.footer__seta:hover {
+    background: #FFF;
+}
 
+.esqueleto__capitao {
+    display:flex;
+    flex:1;
+    justify-content: center;
+    margin-bottom:56px;
+
+}
+
+.esqueleto {
+
+}
+
+.esqueleto__imagem {
+    height: 256px;
+    opacity: 40%;
+}
 

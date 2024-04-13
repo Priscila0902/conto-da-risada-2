@@ -142,7 +142,25 @@ body {
 }
 
 
-.tipo__pizza div {
+#esqueleto__mascote {
+    position: absolute;
+    right: 0;
+    top: 472px;
+
+}
+
+.sobre__esqueleto {
+    position: relative;
+    
+}
+
+.esqueleto__mascote--imagem {
+    height: 414px;
+
+}
+
+
+.tipo__bebida div {
     display: flex;
     align-items: center;
 }
@@ -164,7 +182,8 @@ body {
     display: inline-block;
 }
 
-.definicao__pizza {
+
+.definicao__bebida {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -176,150 +195,114 @@ body {
     z-index: 1; 
 }
 
-.pizzas__superiores {
+.drink__description, .refrigerante__description {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.drinks {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: center;
-    flex-direction: row;
-    margin: 0 32px 0 32px;
+    justify-content: center;
+    margin-top: 64px;
+
 }
 
-.pizzas__inferiores {
+.sobre__drink {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: center;
-    flex-direction: row;
-    margin: 0 32px 0 32px;
+   
 }
 
-.tipo__pizzas {
-    display: flex;
-    justify-content: space-between; 
-    flex-wrap: wrap;
+.drink {
+    margin: 32px 0 32px 32px;
+    width: 672px;
 }
 
-.pizza__um,
-.pizza__dois,
-.pizza__tres,
-.pizza__quatro,
-.pizza__cinco,
-.pizza__seis,
-.pizza__sete,
-.pizza__oito {
-    flex: 0 0 calc(25% - 20px); 
-    margin-bottom: 20px; 
-    box-sizing: border-box;
-    padding-right: 10px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.pizzas {
-    width: 296px;
-    height: 242px;
-    margin-top: 48px;
-    padding-left: 32px;
-}
-
-.pizza__nome {
-    color: #945E06;
-    font-family: "Pirata One";
-    font-size: 32px;
-    font-weight: 400;
-    
-}
-
-.pizza__descricao {
+.descricao__drinks {
     color: #FFF;
-    font-family: "Della Respira";
+    font-family: Quicksand;
     font-size: 20px;
     font-weight: 500;
-    text-align: center;
-    height: 92px;
-
-
-}
-
-.pizza__info {
+    flex: 0.825;
+    padding-left: 24px;
+    padding-top: 32px;
+    justify-content: space-around;
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    gap: 16px;
-    margin-top: 16px;
-}
-
-.pizza__preco {
-    color: #FFF;
-    font-family: "Della Respira";
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 16px;
-
-}
-
-.pizza__botao {
-    display: inline-flex;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border: 2px solid #FFF;
-    color: #FFF;
-    text-align: center;
-    font-family: "Della Respira";
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    background-color: transparent;
-    cursor: pointer;
-   
-
-}
-
-.pizza__botao:hover {
-    background-color: #FFC851; 
-    color: #333; 
-   
+    background: #1D2326;
+    position: relative;
+    
+    
 }
 
 
-.faixa__pirata {
+.refrigerantes {
     display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    
+}
+
+.descricao__refrigerantes {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    background: #1D2326;
+    flex: 0.825;
+    padding-left: 24px;
+    padding-top: 32px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+   
+
+.sobre__refrigerante {
+    display: flex;
+    justify-content: flex-end; 
+ 
+}
+
+.refrigerante {
+    width: 672px;
+    margin: 32px 32px 32px 0;
     
 
 }
 
-.piratas {
-   flex: 1;
-}
-   
-
-.piratas__linha {
-   
-    margin: 96px 32px 96px 48px;
-    width: 85%;
-    opacity: 100%;
-   
+.cervejas {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
 
 }
 
-.piratas__linha2 {
-    margin: 96px 32px 96px 32px;
-    width: 85%;
-    opacity: 100%;
-    
+.sobre__cerveja {
+    display: flex;
+
 }
 
-.piratas2 {
-    flex: 1;
-   
+.cerveja {
+    margin: 32px 0 32px 32px;
+    width: 672px;
+
 }
 
+.descricao__cervejas {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    flex: 0.825;
+    padding-left: 24px;
+    padding-top: 32px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    background: #1D2326;
+    position: relative;
+}
 
 
 footer {
@@ -464,9 +447,11 @@ footer {
 
 }
 
+.esqueleto {
+
+}
 
 .esqueleto__imagem {
     height: 256px;
     opacity: 40%;
 }
-

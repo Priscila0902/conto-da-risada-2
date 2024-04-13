@@ -1,0 +1,278 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+body {
+    background:#1C1C1C;  
+    /* font-family: 'Playfair Display', serif; */
+}
+
+.cabecalho {
+align-items: center;
+display: flex;
+justify-content: space-between;
+padding-left: 32px;
+padding-right: 32px;
+background-color: #800000;
+height: 96px;
+
+}
+
+.logo {
+    padding: 10px 0;
+    width: 112px;
+    height: 96px; 
+}
+
+.nome__logo {
+    font-size: 48px;
+    font-family: "Pirata One";
+    text-align: center;
+    color: #FFF4E0;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    line-height: 40px;
+    padding-left: 160px;
+    
+}
+
+.menu { 
+    font-size: 24px;
+    
+}
+
+.menu__lista {
+    display: flex;
+    margin: 0;
+}
+
+.menu__item {
+    list-style: none;
+    
+}
+
+.menu__item:last-child .menu__link {
+    margin-right: 0;
+}
+
+.menu__link {
+    color: #FFF4E0;
+    margin-right:20px;
+    text-decoration: none;
+    text-transform: lowercase;
+      
+}
+
+.menu__link.ativo  .menu__link {
+    color: #F5841A;
+    font-weight: bold;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+    color: #F5841A;
+}
+
+.dropdown-menu {
+    background-color: #800000;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.dropdown-item {
+    background-color: #800000;
+    color: #FFF4E0;
+    margin-right:20px;
+    text-decoration: none;
+    text-transform: lowercase;
+
+}
+
+.dropdown-item:hover {
+    text-decoration: underline;
+    color: #F5841A;
+}
+
+
+.fundo {
+  
+}
+
+.imagem__fundo {
+    align-items: center;
+    padding-top: 186px;
+ 
+}
+
+.banner__fundo {
+    width: 100%;
+    height: 100%;
+    opacity: 5%;
+}
+
+
+.pagamento {
+    text-align: center;
+    margin-top: 86PX;
+    font-size: 24px;
+    
+
+}
+
+.pagamento__texto {
+    color: #FFF;
+}
+
+footer {
+    display: flex;
+   
+}
+
+#first-section {
+    display: flex;
+    width:33.3%;
+}
+
+.footer__imagem {
+    height: 32px;
+    margin: 32px;
+    margin-right: 10px; 
+
+}
+
+.footer#texto__um {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#second-section {
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+}
+
+.footer__texto {
+    color: #FFF;
+    font-family: "Della Respira";
+    font-size: 18px;
+    font-weight: 500; 
+    text-align: left;
+    margin-top: 32px;
+    
+}
+
+.footer__texto-destaque{
+    color: #FFC851; 
+    
+}
+
+.footer__descricao {
+    color: #5B5E60;
+    font-family: "Della Respira";
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#gray-contact .footer__descricao {
+    margin-right: 0;
+    margin-bottom: 4px;
+    
+}
+
+.imagem__descricao {
+   align-items: center;
+   
+}
+
+.imagem__descricao#traco {
+    padding-bottom: 8px;
+}
+
+#white-contact {
+    display: flex;
+    align-items: center;
+}
+
+#white-contact .footer__descricao {
+    margin-right: 16px;
+}
+
+#telefone__contato {
+    text-align: center;
+}
+
+.contato#white-contact .contato__informacao {
+    color: #FFF;
+    font-family: "Della Respira";
+    font-size: 20px;
+    font-weight: 500;
+ 
+}
+
+.contato__imagem {
+    margin-bottom: 16px;
+}
+
+.contato__informacao {
+    color: #FFF;
+    font-family: "Della Respira";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.footer#third-section { 
+    display: flex;
+    width: 33.3%;
+    align-items: end;
+    justify-content: end;
+}
+
+.button__imagem {
+    position: absolute;
+}
+
+.footer__seta {
+    bottom: 0;
+    right: 32px;
+    background: #FDC95A;
+    padding: 8px;
+    border-radius:0;
+
+}
+
+.footer__seta:hover {
+    background: #FFF;
+}
+
+.esqueleto__capitao {
+    display:flex;
+    flex:1;
+    justify-content: center;
+    margin-bottom:56px;
+
+}
+
+.esqueleto {
+
+}
+
+.esqueleto__imagem {
+    height: 256px;
+    opacity: 40%;
+}

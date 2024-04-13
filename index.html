@@ -3,32 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzaria Conto da Risada</title>
+    <title>Pizzaria Conto da Risada - Página Principal</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Pirata+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
     
 </head>
 
 <body>
-    <header class="cabecalho">
+    <header class="cabecalho" id="top">
         <img class="logo" src="img/logo.png" alt="pirata">
         <h2 class="nome__logo">Pizzaria Conto da Risada</h2>
         <nav class="menu">
             <ul class="menu__lista">
-                <li class="menu__item"><a class="menu__link ativo" href="./index.html" class="menu__link">Ínicio</a></li>
+                <li class="menu__item"><a class="menu__link ativo" href="./index.html" class="menu__link">Início</a></li>
                 <li class="menu__item"><a href="#" class="menu__link">Quem somos</a></li>
                 <li class="menu__item dropdown">
                     <a href="#" class="menu__link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="./pizza-salgada.html">Pizzas Salgadas</a>
-                        <a class="dropdown-item" href="#">Pizzas Doces</a>
-                        <a class="dropdown-item" href="#">Bebidas</a>
+                        <a class="dropdown-item" href="./pizza-doce.html">Pizzas Doces</a>
+                        <a class="dropdown-item" href="./bebidas.html">Bebidas</a>
                     </div>
                 </li>
-                <li class="menu__item"><a href="#" class="menu__link">Contato</a></li>
+                <li class="menu__item"><a href="#white-contact" class="menu__link">Contato</a></li>
                 <li class="menu__item"><a href="#" class="menu__link">Login</a></li>
             </ul>
         </nav>
@@ -93,6 +103,16 @@
         <h2 class="titulo__destaques">Destaques</h2>
     </section>
 
+    <section>
+        <div class="polvo">
+            <img class="polvo__esquerdo" src="img/Polvo esquerdo.png" alt="polvo">
+        </div>
+        <div class="polvo2">
+            <img class="polvo__direito" src="img/polvo.direito.png" alt="polvo">
+        </div>
+        
+    </section>
+
     <section class="destaque__todos-combos">
         <div class="destaque__combos">
             <div class="destaque__combo1">
@@ -108,18 +128,19 @@
                 <div class="destaque__dois">
                     <img class="destaque__pizza" src="img pizza/pizza SR.svg" alt="uma pizza e um refrigerante">
                     <div class="destaque__dois__flex">
-                        <h3 class="destaque__titulo">Pizza (35 cm) + Refrigerante de 2L</h3>
+                        <h3 class="destaque__titulo">Pizza (35 cm) + Refrigerante </h3>
                         <p class="destaque__texto">A partir de <span class="destaque__preco">R$ 75,90</span></p>
                         <p class="destaque__texto2"><span class="destaque__atencao">Atenção Marujos!!!</span> Promoção nos sabores tradicionais</p>
                         <button class="ver__sabores">Ver Sabores <img src="img/Seta direita.svg" alt="botao de prosseguir"></button>
                     </div>
                 </div>
             </div>
+
             <div class="destaque__combo2">
                 <div class="destaque__tres">
                     <img class="destaque__pizza" src="img pizza/pizza doce e salgada e refri.svg" alt="Uma pizza salgada, uma doce e um refrigerante">
                     <div class="destaque__tres__flex">
-                        <h3 class="destaque__titulo">Pizza (35 cm) + Pizza doce (25 cm) + Refrigerante de 2L</h3>
+                        <h3 class="destaque__titulo">Pizza (35 cm) + Pizza doce (25 cm) + Refrigerante</h3>
                         <p class="destaque__texto">A partir de <span class="destaque__preco">R$ 97,90</span></p>
                         <p class="destaque__texto2"><span class="destaque__atencao">Atenção Marujos!!!</span> Promoção nos sabores tradicionais</p>
                         <button class="ver__sabores">Ver Sabores <img src="img/Seta direita.svg" alt="botao de prosseguir"></button>
@@ -169,9 +190,15 @@
             </div>
         </div>
         <div class="footer" id="third-section">
+            <section class="esqueleto__capitao">
+                <div class="esqueleto">
+                    <img class="esqueleto__imagem" src="img/dark-art-skull-piratas-capitao.png" alt="caveira capitao pirata">
+                </div>
+            </section>
             <div class="button__imagem">
-               </button><img class="footer__seta" src="img/angle-up.svg" alt="voltar para o início"></button>
+               </button><a href="#top"><img class="footer__seta" src="img/angle-up.svg" alt="voltar para o início"></a></button>
             </div>
+            
         </div>
     </footer>
 

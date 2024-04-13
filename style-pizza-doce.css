@@ -176,6 +176,7 @@ body {
     z-index: 1; 
 }
 
+
 .pizzas__superiores {
     display: flex;
     flex-wrap: wrap;
@@ -290,36 +291,27 @@ body {
 
 .faixa__pirata {
     display: flex;
-    
-
 }
 
 .piratas {
    flex: 1;
 }
    
-
 .piratas__linha {
-   
     margin: 96px 32px 96px 48px;
     width: 85%;
     opacity: 100%;
-   
-
 }
 
 .piratas__linha2 {
     margin: 96px 32px 96px 32px;
     width: 85%;
     opacity: 100%;
-    
 }
 
 .piratas2 {
     flex: 1;
-   
 }
-
 
 
 footer {
@@ -464,9 +456,11 @@ footer {
 
 }
 
+.esqueleto {
+
+}
 
 .esqueleto__imagem {
     height: 256px;
     opacity: 40%;
 }
-
